@@ -9,19 +9,23 @@ This repository contains two key components for the Gone Phishing Extension demo
 
 This folder contains the Python code, which includes:
 
-**main.py :** The core functionality for training the transformer model is implemented here.
+- **main.py :** The core functionality for training the transformer model is implemented here.
 
-**predict_text.py :** A separate file to test email text in an enclosed enviorment.
+- **predict_text.py :** A separate file to test email text in an enclosed enviorment.
 
-**getTokenizer.py :** Used to get the tokenizer to be used in the conversion file.
+- **getTokenizer.py :** Used to get the tokenizer to be used in the conversion file.
 
-**req.txt :** Holds the required package versions that worked for the conversion.
+- **req.txt :** Holds the required package versions that worked for the conversion.
+
+- **readme.txt :** Contains more information of this folder.
 
 ### 2. transformersJS Folder
 
 This folder contains the JavaScript code, which includes:
 
-**Trasformer.js :** A JavaScript test example that tests the model before integration into the browser extension. This allows the verification the model's functionality and performance in a controlled environment. 
+- **Trasformer.js :** A JavaScript test example that tests the model before integration into the browser extension. This allows the verification the model's functionality and performance in a controlled environment. 
+
+- **readme.txt :** Contains more information of this folder.
 
 ## Note
 
