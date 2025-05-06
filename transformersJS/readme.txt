@@ -1,16 +1,26 @@
-You would need to make sure you have installed '@huggingface/transformers' and Node.js
+## Prerequisites
 
-If you don't have node download node from https://nodejs.org 
+Before you begin, ensure you have the following installed on your system:
 
-If you haven't already installed it or is not already installed with this file folder
-install it by entering the command below while in this dierectory:
+**Node.js :** If you don't have Node.js installed, you can download it from the official website: Node.js Download.
 
-npm i @huggingface/transformers
+**Hugging Face Transformers Library :** This project requires the @huggingface/transformers package. If you haven't installed it yet, follow the instructions below.
 
+## Installation
 
-This program was supposed to be integrated with the full model into the extension code however the model was too large to be added.
+**Navigate to the Project Directory :** Open your command line interface (CLI) and change to the directory where this project is located.
 
-If you have the model running this code is simple.
-To do a test, in the command line run 
+**Install the Required Package :** Run the following command to install the Hugging Face Transformers library:
 
-node Transformer.js 
+    npm install @huggingface/transformers
+
+## Running the file
+
+If you have the model set up and running, executing the code is straightforward. To test the functionality, run the following command in your command line:
+
+    node Transformer.js
+
+## Additional Information
+
+This program was originally intended to be integrated with a full model within the extension code. However, due to the model's large size, it could not be included directly in this repository.
+Running the Program
